@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+	<meta charset="utf-8">
+
+	<title>  Pixel Comic </title>
+
+	</head>
+	
+	<link rel="stylesheet" href="website.css"> 
+
+	<body bgcolor ="#FAD0DE" >
+
+	<div>		
+		<h1> <a  style = "text-decoration:none; color: white; font-size: 69px; font-family: monaco; 
+        letter-spacing: 20px; position: relative; top: 10px; padding-bottom: -5px; 
+        padding-top: -20px" href="index.html" > <center> Pixel </center></a></h1>
+	</div>
+	
+		<HR color ="white">
+
+	<div class="flex-container">
+
+		<div><a href="about.html"><button class = "navigation" type="button">//about</button></a></div>
+
+		<div><a href="cast.html"><button class = "navigation" type="button">//cast</button></a></div>
+
+		<div class="dropdown">
+  		<button class="navigation">//pages</button>
+ 			<div class="dropdown-content">
+   				<a href="index.html">page 1</a>
+    			<a href="page2.html">page 2</a>
+    			<a href="page3.html">page 3</a>
+  			</div>
+  		</div>
+
+		<div><a href="explanation.html"><button class = "active_nav" type="button">&nbsp;&nbsp;behind the power</button></a></div>
+
+	</div>
+
+	<HR color ="white"></div>
+		<p class = title> PSUEDOCODE </p>
+
+		<p class = explanation>Today we will be helping you break down the code included in the first page!</b>
+			Most of you were probably able to read and understand this statement,</p>
+
+		<center> <img src="code1.png" alt="code 1" style="width:35%;height:auto;"></center>
+
+		<p class = explanation>even if you’ve never seen actual code before! This is because of a tool all programmers utilize; Psuedocode!</p>
+		<p class = explanation>Psuedocode is essentially what is sounds like, fake code. It is the first step to designing what you want your code to accomplish! </b> It’s meant to be readable and easy to understand and follow. What it does is basically lay out the groundwork for the logic. It is an extremely helpful and powerful tool used by programmers to make sure they have a clear understanding of what they want to ultimately accomplish.</p>
+			<center><p class = explanation > A common way to visualize Psuedocode is through flowcharts!</p></center>
+
+		<center> <img src="flow.png" alt="flowchart" style="width:65%;height:auto;"></center>
+
+		<p class = title>TYPES</p>
+
+		<p class = explanation> Pixel specifically uses the very common programing language, Java, in order to control her powers. Java has a set of rules and prewritten ‘types’ that come with the language. Each programming language is slightly different with what rules, types, and typically coding style (syntax) is accepted. For example Java is written in lower case. These small rules each make a language unique. </p>
+
+		<p class= explanation>Java comes with eight basic types. You can think of types as categories. Here are the eight types listed out, don’t worry if you don’t understand all or any of them! That’s our job, to help you learn!</p>
+
+		<div class="type-container">
+  			<div><a href = "#T0" style = "text-decoration:none; color: #54212F;"> boolean</a></div>
+  			<div><a href = "#T1" style = "text-decoration:none; color: #54212F;">char</a></div>
+  			<div><a href = "#T2" style = "text-decoration:none; color: #54212F;">int</a></div>
+		</div>
+
+		<div class="type-container">
+  			<div><a href = "#T3" style = "text-decoration:none; color: #54212F; ">float</a></div>
+  			<div><a href = "#T4" style = "text-decoration:none; color: #54212F;">short</a></div>
+  			<div><a href = "#T5" style = "text-decoration:none; color: #54212F;">double</a></div>
+  			<div><a href = "#T6" style = "text-decoration:none; color: #54212F;">long</a></div>
+		</div>
+
+		<p class = title id = "T0">BOOLEAN</p>
+
+		<p class = explanation>We will help you break them down slowly throughout the comic. We will be focusing on the boolean (pronounced boo-lee-un, definitely a weird word). But if you want to learn about the other types right now just click on them for a more in-depth explanation!<p>
+
+		<p class = explanation> Java’s logic is controlled through variables, similar to stuff you see in math class but they are typically one of the eight types listed. You can name your variable anything you want (with a few exceptions). For example I can have a variable named pizza with type boolean.<br>And I would write that like<br>&nbsp;<br>boolean pizza;  </p>
+
+		<center> <img src="pizza.png" alt="pizza" style="width:35%;height:auto;"></center>
+
+		<p class = explanation> This is referred to as defining a variable. The variable pizza is being defined as a boolean! Now to get into what exactly a boolean is. A boolean is either true and false. Java recognizes these common words so you can either set this variable to <b>true</b> or <b>false</b>.</p>
+
+		<center><p class = explanation>After you define the variable you can set the value of the variable!</p></center>
+
+		<p class = explanation>So you could write.<br> pizza = true;<br>And now this pizza has the value of "True" associated with it, which can be used in your code's logic, in how it functions.</p>
+
+		<center> <img src="pizzatrue.png" alt="true pizza" style="width:35%;height:auto;"></center>
+
+		<p class = title> IF STATEMENTS </p>
+		<p class = explanation> Code is not all ones and zeros it includes readable commands in english. An example of this is the common if statement. An if statement is used to tell the computer what to do in different situations. Our friendly neighborhood Pixel uses her coding powers to program her popcorn bowl to refill itself if it is empty. If statements have two parts, the condition and the body. In our example, the condition is:<br>&nbsp;<br>bowl.empty() == true
+		</p>
+		<center><p class = explanation> (don't worry about the double equal signs we will get to that part soon)</p></center>
+		<p class = explanation>The condition must be a statement that evaluates to true or false. If it evaluates to true the computer evaluates the body which is the code inside the curly braces {}. If the condition evaluates to false, then the computer does not evaluate to body, it skips over it instead. And the body is :<br>&nbsp;<br>bowl.refill(popcorn);</p>
+
+        <p class = title id = "T1">CHAR</p>
+
+        <p class = explanation>A char is a type in Java which indicated a single character. For example, a is a character in the english language and we
+        	define this variable,<p>
+
+        <center><p class = explanation>char cheese;<p></center>
+       	<p class = explanation>Then you can set the variable:<p>
+       	<center><p class = explanation>cheese ='n';<p></center>
+        <p class = explanation>You can declare and set a variable all in one line:<p>
+       	<center><p class = explanation>char cheese ='n';<p></center>
+
+       	<p class = explanation>The quotations help by communicating that this is the character we want cheese to equal to, and it is not anoter name for a variable. <p>
+
+       	<p class = explanation>Char variables can be set to most of the characters on your keyboard. A char variable can only be given one character, however you can switch to a different character as many times as you want by re-assigning the variable to whichever character you’d like. Here are some characters that can be assigned to a char:<p>	
+       	<center><p class = explanation>‘=’ , ‘9’, ‘%’ , (even a blank space) ‘ ‘<p></center>
+       	<p class = explanation>We will talk about 2 characters that cannot be assigned to char normally, the single quote and the BACKSLASH! <a href = https://www.youtube.com/watch?v=cphNpqKpKc4 style = "text-decoration: none; color: white;">DUN DUN DUN.</a> The backslash is a notable character because it is used in special character combinations called escape sequences. Escape sequences allow us to set characters to values that we cannot easily type into quotes such as a newline or a tab.<p>
+        <p class = explanation>Here are a few escape sequences:</p>
+        <center><p class = explanation>‘\b’ backspace</p></center>
+       	<center><p class = explanation>‘\t’ tab</p></center>
+       	<center><p class = explanation>‘\n’ new line (similar to pressing enter to start typing on the next line)</p></center>
+       	<center><p class = explanation>‘\'’  (this is how we can assign single quotes)</p></center>
+        <center><p class = explanation>‘\\’ backslash (this is how we can assign the backslash)</p></center>
+
+
+       	 <p class = title id = "T2">INT</p>
+       	 <p class = explanation>A int type is for integers. To use a int type, you must declare and set a variable:</p>
+
+       	 <center><p class = explanation>int pineapples= 12;</p></center>
+
+       	 <p class = explanation>Also if you have been noticing we are typing all our code in lowercase, its an important trait of Java actually! Java differentiates between UPPER and lower case so you have to be careful when making your varaibles. And all the types are defined as being lowercase so int is a type in Java but the computer would not be able to understand what Int is.</p>
+       	 
+         <center><p class = explanation>You can apply mathematical operators to the variable like this</p></center>
+
+       	<b><center><p class = explanation>ADDITION:</p></center></b>
+       	<center><p class = explanation>pineapples = pineapples + 57;</p></center>
+       	<b><center><p class = explanation>SUBTRATION:</p></center></b>
+       	<center><p class = explanation>pineapples = pineapples - 5;</p></center>
+       	<b><center><p class = explanation>MULTIPLICATION:</p></center></b>
+       	<center><p class = explanation>pineapples = pineapples * 2;</p></center>
+       	<b><center><p class = explanation>DIVISION:</p></center></b>
+       	<center><p class = explanation>pineapples = pineapples / 4; division;</p></center>
+       	<p class = explanation>And the next one is a weird one and we will help you break is down but its called &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+        <b><center><p class = explanation>MODULO:</p></center></b>
+       	<center><p class = explanation>pineapples = pineapples % 2;</p></center>
+
+       	<p class = explanation>With division in Java the operator will never return a decimal if it is used on an integer. It will return the number without the decimal attached. For example:</p>
+        <center><p class = explanation>12 / 2 is equal to 6 and the java code will return 6</p></center> 
+        <center><p class = explanation>7 / 2 is equal to 3.5, but the java code will return 3</p></center>   
+
+        <p class = explanation>Modulo: The mod operator returns the remainder from dividing a number. It will never be a decimal. For example:</p>
+        <center><p class = explanation>12 / 2 is equivalent to 2 with a remainder of 0. The java code 12 % 2 will return 0</p></center> 
+        <center><p class = explanation>14 / 3 is equivalent to 4 with a remainder of 2. The java code 14 % 3 will return 2</p></center>
+
+       	<p class = title id = "T3">FLOAT</p>
+       	<p class = explanation>A float is very similar to an integer. You can apply the same mathematical operators the main difference is with floats, you can use decimals!</p>
+
+       	<p class = explanation>To use a float type, you must declare and set a variable:</p>
+
+       	<center><p class = explanation>float pie_slices = 7.54f</p></center>
+
+       	<p class = explanation>Also! If you've noticed that our variable names have never been more than one word before now. And even though this variable is read as 'pie slices' we actually type it with an underscore to keep it as all one entity. This is very important because variable names in Java can not be more than one 'word' long.</p>
+
+       	<p class = explanation>We type the f at the end to tell the computer it is a float. You can apply mathematical operators to the variable like this:</p>
+       	<b><center><p class = explanation>ADDITION:</p></center></b>
+       	<center><p class = explanation>pie_slices = pie_slices + 0.5f;</p></center>
+       	<b><center><p class = explanation>SUBTRATION:</p></center></b>
+       	<center><p class = explanation>pie_slices = pie_slices - 5f;</p></center>
+       	<b><center><p class = explanation>MULTIPLICATION:</p></center></b>
+       	<center><p class = explanation>pie_slices = pie_slices * 0.26f;</p></center>
+       	<b><center><p class = explanation>DIVISION:</p></center></b>
+       	<center><p class = explanation>pie_slices = pie_slices / 6.2f;</p></center>
+       	
+       	<center><p class = explanation>For example:</p></center>
+       	<center><p class = explanation>7.54f / 6.2f = 1.2161291</p></center>
+       	<center><p class = explanation>7f / 2f = 3.5</p></center>
+       	<center><p class = explanation>14f / 3f = 2.0</p></center>
+
+       	<p class = explanation>It is also important to note, that opposed to int, float does not have the ability for 'remainder' division or modulo. This is because we are now working with decimals and remainders are not possible! So if you do not want to have a remainder you can declare your numbers as floats and it will do normal division that you guys are familiar with.</p>
+
+
+
+
+
+
+
+	</body>
+</html>
